@@ -1,31 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
 
-.videoctexto {
-    position: relative;
+body{
+  background-color: write;
 }
 
-.videoctexto video {
-    width: 100%;
-}
+.boxcenter {
+  position: relative;
 
-.sobreposição {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+.boxfloatatraz {
+  position: relative;
   z-index: 1;
-  color: #fff;
-  text-align: center;
+}
+.sobreposicao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
-.videoctexto::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.808); /* Cor de sobreposição semi-transparente */
-    z-index: 0;
-  }
+h1 {
+  font: 900 3em 'Bebas Neue', sans-serif;
+  color: ;
+}
 
+h2 {
+  font: 2em 'Bebas Neue', sans-serif;
+  color: ;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+p {
+  font: 1em Roboto, sans-serif;
+  color: ;
+}
