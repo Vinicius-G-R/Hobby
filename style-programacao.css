@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+
+:root {
+ --fonttitulo: 'Bebas Neue', sans-serif;
+ --fontpadrao: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #5997FD;
+}
+
+header {
+background-color: white;
+margin-top: 20px;
+padding: 10px;
+font-family: var(--fonttitulo);
+font-size: 1.3em;
+text-align: center;
+color: #5997FD;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+#container3box {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+#container3box h2{
+    color: #5997FD;
+    font-family: var(--fonttitulo);
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container3box p{
+    font-family: var(--fontpadrao);
+    font-size: 0.8em;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#box1, #box2, #box3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+}
+
+#imagens {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    margin-right: 20px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+#img2 {
+    height: 175px;
+    border-radius: 10px;
+}
+
+#frase {
+    background-color: white;
+    margin: auto;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #5997FD;
+    font-family: var(--fontpadrao);
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+#conteinerbotoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background-color: white;
+    max-width: 120px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5px;
+    font-family: var(--fontpadrao);
+    justify-content: center;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    padding: 7px;
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
