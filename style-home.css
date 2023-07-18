@@ -99,12 +99,22 @@ main a {
     color: #FB9030;
 }
 
+#box1 i{
+    color: #FB9030;
+    margin-bottom: 10px;
+}
+
 #box2 {
     border-color: #5997FD;
     font-family: var(--fontpadrao);
 }
 #box2 a{
     color: #5997FD;
+}
+
+#box2 i{
+    color: #5997FD;
+    margin-bottom: 10px;
 }
 
 #box3 {
@@ -114,6 +124,12 @@ main a {
 #box3 a{
     color: #46BB28;
 }
+
+#box3 i{
+    color: #46BB28;
+    margin-bottom: 10px;
+}
+
 
 main a {
 text-decoration: none;
